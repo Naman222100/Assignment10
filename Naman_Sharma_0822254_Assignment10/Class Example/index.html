@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LG Tech</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">LG Tech</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-5">
+    <h1>NAMAN SHARMA</h1>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Section 1</h3>
+          <p>Enjoy optimized speed, security features, connectivity and battery life thanks to the deep integration of AMD processors.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Section 2</h3>
+          <p>“Gamers and content creators will undoubtedly revel in the extreme power, beautiful visuals and excellent portability this laptop has to offer.”</p>
+        </div>
+      </div>
+    </div>
+    <img src="image.jfif" class="card-img-top" alt="Image of the laptop">
+  </section>
+
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Products</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">LG 5</h5>
+              <p class="card-text">Very affordable and fast laptop with all the modern features available making it total value of money deal.</p>
+              <a href="#" class="btn btn-primary">View Details</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">LG 4r</h5>
+                <p class="card-text">With latest features and gaming support.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">LG 5q</h5>
+                <p class="card-text">Loaded with technology that no tech lover can say no to.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h2>Product List</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>LG 5</td>
+          <td>$19.99</td>
+          <td>10</td>
+        </tr>
+        <tr>
+            <td>LG 4r</td>
+            <td>$39.99</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>LG 5q</td>
+            <td>$59.99</td>
+            <td>9</td>
+          </tr>
+        
+      </tbody>
+    </table>
+
+  <div class="container mt-5">
+    <h2>Order Form</h2>
+    <form>
+      <div class="form-group">
+        <label for="productName">Product Name</label>
+        <select class="form-control" id="productName">
+          <option>Select Product</option>
+          <option>LG 5</option>
+          <option>LG 4r</option>
+          <option>LG 5q</option>
+      </div>
+
+      <div class="form-group">
+        <label for="orderSwitch">Would you like to order?</label>
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="orderSwitch">
+          <label class="custom-control-label" for="orderSwitch">Yes</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="quantityRange">Quantity</label>
+        <input type="range" class="form-control-range" id="quantityRange" min="1" max="10">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
